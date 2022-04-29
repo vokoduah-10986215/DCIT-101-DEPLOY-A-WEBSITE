@@ -1,0 +1,269 @@
+body {
+    background-image:url("images (16).jpg");
+}
+@font-face {
+    font-family: "bootern - Zero Zero";
+    src: url("Fonts/booter - Zero Zero.woff") format("woff"),
+        url("Fonts/booter - Zero Zero.woff2") format("woff2");
+     font-weight: normal;
+     font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+html, body{ 
+    margin: auto;
+    padding: 10px;
+}
+
+.nav ul {
+    margin: 0;
+}
+.nav li{
+    display: inline ;
+}
+.nav a{
+    display: inline-block;
+    padding: 5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+.main-nav {
+    text-align: center;
+    font-size: medium;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .6);
+}
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("images/download.jpg");
+    background-blend-mode: multiply;
+    background-size: contain;
+    padding: 50px;
+}
+
+.artiste-image1 {
+     image-rendering: auto;
+     image-orientation: flip;
+     align-content: center;
+}
+
+.artiste-name {
+      text-align: center;
+      margin: 0;
+      font-size: 4em;
+      font-family: "booter - Zero Zero";
+      font-weight: normal;
+      color: white;
+}
+
+.artiste-name-large {
+    font-size: 8em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.content-section-container {
+    color: black;
+}
+
+.paragraph {
+     color: black;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+    color: #333;
+}
+
+.section-header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: #333;
+    font-size: 2.5em;
+}
+
+.about-artiste-image {
+    float: left;
+    height: 300px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.about-artiste-image2 {
+    margin: middle;
+    align-content: center;
+    display: 1000px;
+}
+
+.main-footer {
+    background-color: black;
+    background-image: url("images/images\ \(12\).jpg");
+    color: blue;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+}
+
+.main-footer-container ul {
+    flex-grow: 2;
+    text-emphasis: end;
+}
+.footer-nav li {
+    padding: 0.5em;
+}
+
+.footer-nav img{
+    width: 30px;
+    height: 30px;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid #56ccf2 ;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    padding: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    color: #2D9CDB;
+    font-size: 4em;
+    border-radius: 100%;
+    padding: 0; 
+    width: 100px; 
+    height: 100px;
+}
+.tour-row{
+    border-bottom: 1px solid black;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.tour-row:last-child{
+    border-bottom: none;
+}
+
+.tour-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.tour-date {
+    color: black;
+    font-weight: bold;
+    width: 30%;
+}
+
+.tour-city {
+    width: 30%;
+    color: black;
+}
+
+.tour-arena {
+    width: 30%;
+    color: black;
+}
+
+.tour-btn {
+    width: 30%;
+}
+
+.btn-primary {
+    color: black;
+    background-color: #56ccf2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    width: 25%;
+}
+
+.btn-primary:hover {
+    background-color: #2d9cd8;
+}
+
+.shop-item {
+    margin: 10px;
+    padding: 0em;
+    align-content:left;
+    color: black;
+    width: auto;
+}
+
+.shop-item-title {
+    display: block;
+    width: auto;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    padding: auto;
+}
+
+.shop-item-image {
+    height: 250px;
+    color: black;
+    align-content: left;
+    width: 25%;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: left;
+    padding: 10px;
+    width: auto;
+    color: black;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: black;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap:initial;
+    justify-content:end;
+    scroll-padding-block-end: 0em;
+    color: black;
+}
+
+.shop-quantity {
+    color: black;
+    width: 10%;
+}
